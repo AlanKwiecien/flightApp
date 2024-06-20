@@ -148,7 +148,7 @@ def main():
             if prediction > 0.5:
                 result_message = "Unfortunately your flight will be delayed at least 15 min."
             else:
-                result_message = "Yeeey! It seems that your flight won't be delayed"
+                result_message = "Yeeey! It seems that your flight won't be delayed."
 
     with col2:
         if st.button("Reset"):
